@@ -1,0 +1,222 @@
+test 
+
+
+
+SAP BTP CAPM with Fiori
+This test is to know the candidate capability in SAP BTP CAPM with Fiori
+Sign in to Google to save your progress. Learn more
+* Indicates required question
+What is the primary goal of the "Clean Core" strategy when utilizing SAP BTP?
+*
+1 point
+To keep the core ERP system free of direct source-code modifications by building extensions side-by-side on BTP
+To periodically purge outdated transaction logs directly within the S/4HANA database.
+To encrypt all outgoing HTTP traffic from the SAP backend to external web clients.
+To enforce that all cloud applications are written exclusively on ABAP.
+What is the full form of CAPM
+*
+1 point
+Cloud Application Programming Model
+Cloud Architecture Programming Model
+Cloud-based Application Programming Model
+Cloud Application Project Model
+What is the full form of MVC
+*
+1 point
+Model View Controller
+Modern View Controller
+Model Vision Controller
+Model Version Controller
+Which type of SAP Fiori application is primarily designed to display contextual information and deep navigation hierarchies regarding complex business objects (such as a 360-degree view of a customer or product)?  
+*
+1 point
+Factsheet
+Transactional
+Analytical
+Dashboard App
+In the Model-View-Controller (MVC) paradigm used by SAPUI5, which component manages user interaction events, coordinates modifications to the data model, and invokes the view updates?  
+*
+1 point
+Model
+View
+Controller
+Descriptor
+Which one is not a type of Access Control?
+*
+1 point
+Static Access Control
+Role Based Access Control
+Instance Based Access Control
+Dynamic Access Control
+What is the command to push a new app or syn changes to an existing app?
+*
+1 point
+cf deploy
+cf pull
+cf push
+cds push
+What is the full form of ANS?
+*
+1 point
+Alert Notification Service
+Alert Notifiable Service
+Alter Notification Service
+Alter Notifiable Service
+Which of the following communication protocols are natively supported by SAP Event Mesh for connecting client applications and producers/consumers?
+*
+1 point
+AMQP, MQTT, REST, and WebSockets
+SOAP, FTP, and SMTP exclusively
+gRPC and JDBC only
+SSH and SFTP
+What is the full form of BPA?
+*
+1 point
+Build Process Application
+Business Process Application
+Build Process Automation
+Business Process Automation
+Which data binding mode in SAPUI5 ensures that changes made in the user interface control are immediately reflected back to the data model, and updates in the model are simultaneously pushed to the UI control?
+*
+1 point
+One-way
+Two-way
+One-time
+None of the above
+What is the SAP Fiori apps reference library?
+*
+1 point
+A development tool
+A collection of SAP Fiori apps
+A documentation resource
+A testing tool
+What is the command to deploy the changes into SQLite database?
+*
+1 point
+cds deploy --to hana
+cds deploy --to sqlite
+cf deploy --to hana
+cf  deploy --to sqlite
+A user types a search condition in a Fiori Smart Filter Bar, resulting in an incoming OData request with $filter=price gt 50. How does the CAP runtime handle this query option natively?
+*
+1 point
+It requires a manual implementation in an srv.on('READ') handler to parse string expressions into JavaScript if statements.
+It stores the filter string in an environment variable (process.env) for background auditing.
+It transparently translates the OData filter expression into a Core Query Language (CQL) .where clause for the database layer.
+It rejects the request with an HTTP 400 status code because filters are only supported via actions.
+What is Git?
+*
+1 point
+It is a distributed version control system
+It is a static version control system
+It is a dynamic version control system
+All the above
+What are type of services available in SAP ?
+*
+1 point
+Application Development and Automation
+Data and Analytics
+Artificial Intelligence
+Integration Suite
+How many services are available as of October 2026?
+*
+1 point
+83
+84
+82
+86
+Which Postman feature allows you to execute all requests in a collection sequentially, pass data using a external CSV/JSON file, and automate testing workflows?
+*
+1 point
+Mock Server
+Collection Runner
+Postman Visualizer
+API Builder
+Which command-line tool is predominantly used within a CI/CD deployment step to push and deploy a CAPM .mtar archive to a specific SAP BTP Cloud Foundry space?
+*
+1 point
+cds deploy
+cf
+kubectl
+npm run deploy
+'What is the primary keyword used to define a persistent data structure or database-mapped object in a CAP Core Data Services (.cds) file?
+*
+1 point
+table
+model
+struct
+entity
+What is the command to commit the changes to local repository?
+*
+1 point
+git push
+git clone
+git commit
+git remove origin
+What is the full form of BAS?
+*
+1 point
+Business Application Studio
+Build Application Studio
+Business Architecture Studio
+Build Architecture Studio
+What is the primary function of a Subaccount within SAP BTP?
+*
+1 point
+To deploy applications, manage specific user authorizations, and completely isolate business data and configurations within a chosen region.
+To define the total financial billing model and monthly pricing tiers for the entire enterprise agreement.
+To route network traffic between public internet endpoints and private on-premise ABAP gateways globally.
+To store static documentation and audit reports for SAP compliance reviews.
+In a CAP Core Data Services model with an association between Books and Author, an SAP Fiori object page requests $expand=author. How does CAP process this query option during persistence query translation?
+*
+1 point
+It automatically deletes the Author record from the database to clean up orphaned references.
+It performs a SQL/CQL join or nested query to fetch the associated author details alongside the book instance.
+It converts the association into an unmanaged association with an explicit on condition failure.
+It restricts the result to only the book properties, ignoring the expansion request completely.
+Which CDS annotation is specifically required to define the columns and their visual ordering displayed within a Fiori Elements List Report table view?
+*
+1 point
+UI.LineItem
+UI.HeaderInfo
+UI.HeaderFacet
+UI.Identification
+How do you correctly render a group of fields defined via a qualified @UI.FieldGroup inside a section or subsection of an SAP Fiori Elements Object Page?
+*
+1 point
+'By directly annotating the main entity with @UI.LineItem referencing the field group name.
+'By declaring the field group inside the entity-level @UI.SelectionFields annotation array.
+By creating a #REFERENCE_FACET whose target references the qualifier of the @UI.FieldGroup annotation (e.g., targeting @UI.FieldGroup#GeneralInfo).
+Field groups are automatically rendered as the default form on the Object Page header without needing a facet reference.
+What is the full form of CTM?
+*
+1 point
+Cloud Transport Manager
+Cloud Transfer Manager
+Cloud Transport Management
+Cloud -based Transport Management
+Which of the following deployment options is available for SAP Fiori?
+*
+1 point
+Cloud
+On-premise
+Hybrid
+All the above
+What is the correct syntax used inside Postman request URLs, headers, or body text to reference a variable named api_key?
+*
+1 point
+$api_key
+%api_key%
+{{api_key}}
+var api_key
+What is the BTP CLI Command to create service?
+*
+1 point
+cf create services/instance --offering-name <OFFERING_NAME> --plan-name <PLAN_NAME> --name <INSTANCE_NAME>
+create services/instance --offering-name <OFFERING_NAME> --plan-name <PLAN_NAME> --name <INSTANCE_NAME>
+cds create services/instance --offering-name <OFFERING_NAME> --plan-name <PLAN_NAME> --name <INSTANCE_NAME>
+None of the above
+This content is neither created nor endorsed by Google. - Terms of Service - Privacy Policy
+Does this form look suspicious? Report
+
+Google Forms
